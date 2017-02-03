@@ -1,4 +1,4 @@
-namespace Domain.Task.Entity {
+namespace SimpleCQRS.Domain.Task.Entity {
     public class Task {
         public string name { get; }
         public string description { get; }

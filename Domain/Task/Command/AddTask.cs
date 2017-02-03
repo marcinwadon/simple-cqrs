@@ -1,4 +1,4 @@
-namespace Domain.Task.Command {
+namespace SimpleCQRS.Domain.Task.Command {
     public class AddTask : CQRS.ICommandMessage {
 
         public string name { get; }

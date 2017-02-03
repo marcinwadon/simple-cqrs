@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CQRS
+namespace SimpleCQRS.CQRS
 {
     public class CommandBus : ICommandBus
     {

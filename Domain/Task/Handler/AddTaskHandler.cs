@@ -1,8 +1,8 @@
 using System;
 
-using Domain.Task.Command;
+using SimpleCQRS.Domain.Task.Command;
 
-namespace Domain.Task.Handler
+namespace SimpleCQRS.Domain.Task.Handler
 {
     public class AddTaskHandler : CQRS.IHandler<AddTask>
     {

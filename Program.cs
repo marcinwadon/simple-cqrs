@@ -1,15 +1,12 @@
-﻿using System;
+﻿using SimpleCQRS.Domain.Task.Command;
+using SimpleCQRS.Domain.Task.Handler;
 
-using Domain.Task.Command;
-using Domain.Task.Handler;
-
-namespace ConsoleApplication
+namespace SimpleCQRS
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-
             // From DI:
             var commandBus = new CQRS.CommandBus();
 

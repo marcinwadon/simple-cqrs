@@ -1,4 +1,4 @@
-namespace CQRS
+namespace SimpleCQRS.CQRS
 {
     public interface ICommandBus
     {
