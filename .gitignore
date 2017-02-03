@@ -1,0 +1,24 @@
+@ Buld results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+.vs/
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*.VisualState.xml
+TestResult.xml
+project.lock.json
+artifacts/
+
+publish/
+*.nupkg
+**/packages/*
