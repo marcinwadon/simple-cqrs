@@ -13,7 +13,8 @@ namespace SimpleCQRS.Spec.CQRS
         private Mock<IHandler<ICommandMessage>> handlerMock;
         private IHandler<ICommandMessage> handler;
 
-        public CommandBusTest() {
+        public CommandBusTest()
+        {
             commandBus = new CommandBus();
 
             Mock<ICommandMessage> commandMock = new Mock<ICommandMessage>();
