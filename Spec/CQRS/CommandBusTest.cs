@@ -8,10 +8,10 @@ namespace SimpleCQRS.Spec.CQRS
 {
     public class CommandBusTest
     {
-        ICommandBus commandBus;
-        ICommandMessage command;
-        Mock<IHandler<ICommandMessage>> handlerMock;
-        IHandler<ICommandMessage> handler;
+        private ICommandBus commandBus;
+        private ICommandMessage command;
+        private Mock<IHandler<ICommandMessage>> handlerMock;
+        private IHandler<ICommandMessage> handler;
 
         public CommandBusTest() {
             commandBus = new CommandBus();
